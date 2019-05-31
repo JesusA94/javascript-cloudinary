@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subida de imagenes a cloudinary</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <img id="img-vista">
+            <div class="card-footer">
+               <input type="file" id="img-subir"> 
+                <progress id="img-bar" value="0" max="100" style="width:100%"></progress>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
+</html>
